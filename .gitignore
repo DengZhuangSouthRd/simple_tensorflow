@@ -1,0 +1,6 @@
+.DS_Store
+bazel-bin/*
+bazel-genfiles/*
+bazel-ltensorflow/*
+bazel-out/*
+bazel-testlogs/*

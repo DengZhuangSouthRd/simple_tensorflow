@@ -26,7 +26,7 @@ limitations under the License.
 #include <string>
 #include <vector>
 
-#include "tensorflow/c/checkpoint_reader.h"
+// #include "tensorflow/c/checkpoint_reader.h"
 #include "tensorflow/core/framework/graph.pb.h"
 #include "tensorflow/core/lib/core/errors.h"
 #include "tensorflow/tools/tfprof/internal/tfprof_node.h"

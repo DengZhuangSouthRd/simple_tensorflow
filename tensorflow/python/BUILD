@@ -223,9 +223,9 @@ cc_library(
     srcs = ["lib/io/py_record_reader.cc"],
     hdrs = ["lib/io/py_record_reader.h"],
     deps = [
+        "//tensorflow/core:lib",
         "//tensorflow/c:c_api",
         "//tensorflow/c:tf_status_helper",
-        "//tensorflow/core:lib",
     ],
 )
 
@@ -234,9 +234,9 @@ cc_library(
     srcs = ["lib/io/py_record_writer.cc"],
     hdrs = ["lib/io/py_record_writer.h"],
     deps = [
+        "//tensorflow/core:lib",
         "//tensorflow/c:c_api",
         "//tensorflow/c:tf_status_helper",
-        "//tensorflow/core:lib",
     ],
 )
 

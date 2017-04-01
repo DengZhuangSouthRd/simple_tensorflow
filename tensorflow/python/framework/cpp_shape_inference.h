@@ -25,7 +25,6 @@ limitations under the License.
 
 namespace tensorflow {
 namespace swig {
-
 // Calls the registered C++ shape inference function for <node> (a serialized
 // NodeDef).
 // Should not be called for shape functions that access input tensors; constant

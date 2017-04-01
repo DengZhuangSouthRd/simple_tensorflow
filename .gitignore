@@ -2,7 +2,7 @@
 bazel-bin/*
 bazel-genfiles/*
 bazel-ltensorflow/*
-bazel-simple_tensorflow/*
+bazel-simple_tensorflow
 bazel-out/*
 bazel-testlogs/*
 *.tar.gz

@@ -1,1 +1,1 @@
-export PYTHON_BIN_PATH="/usr/bin/python3"
+export PYTHON_BIN_PATH="/usr/bin/python"

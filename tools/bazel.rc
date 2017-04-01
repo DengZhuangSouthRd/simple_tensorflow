@@ -12,15 +12,15 @@ build:sycl_asan --define=using_sycl=true --copt -fno-omit-frame-pointer --copt -
 
 build --force_python=py3
 build --host_force_python=py3
-build --python3_path="/usr/bin/python3"
+build --python3_path="/usr/bin/python"
 build --define=use_fast_cpp_protos=true
 build --define=allow_oversize_protos=true
 
-build --define PYTHON_BIN_PATH="/usr/bin/python3"
-test --define PYTHON_BIN_PATH="/usr/bin/python3"
+build --define PYTHON_BIN_PATH="/usr/bin/python"
+test --define PYTHON_BIN_PATH="/usr/bin/python"
 test --force_python=py3
 test --host_force_python=py3
-run --define PYTHON_BIN_PATH="/usr/bin/python3"
+run --define PYTHON_BIN_PATH="/usr/bin/python"
 
 build --spawn_strategy=standalone
 test --spawn_strategy=standalone
